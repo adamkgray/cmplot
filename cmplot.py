@@ -75,4 +75,3 @@ def cmplot(cm):
     )
 
     plt.tight_layout()
-    plt.show()

@@ -1,4 +1,5 @@
 from cmplot import cmplot
+import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 from sklearn.metrics import confusion_matrix
 from sklearn.linear_model import LogisticRegression
@@ -18,3 +19,5 @@ cm = confusion_matrix(y, y_pred, labels=[0, 1])
 
 # plot
 cmplot(cm)
+
+plt.savefig("plot")
